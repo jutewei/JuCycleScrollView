@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "JuCycleScrollView.h"
 
-@interface ViewController ()
+@interface ViewController (){
+
+    __weak IBOutlet JuCycleScrollView *ju_cycleScrollView;
+}
 
 @end
 
@@ -16,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [ju_cycleScrollView juSetScrollItem:@[@"1.jpg",@"2.jpeg"]];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
