@@ -60,21 +60,17 @@
 }
 -(void)juInitView{
     self.backgroundColor=[UIColor colorWithWhite:0.96 alpha:1];
-    _Scale=1.0/3.0;
     ju_Animation=5;
     [self juStartTimer];
     [self juSetScrollView];
 }
 //初始化控件
 -(void)juSetScrollView{
-    for (NSLayoutConstraint *layout in self.constraints ) {
-        if (layout.relation==NSLayoutRelationEqual) {
-             _Scale=1.0/layout.multiplier;
-        }
-    }
+
+  
     ju_ScrollView=[[UIScrollView alloc]init];
     [self addSubview:ju_ScrollView];
-    ju_ScrollView.juFrame(CGRectMake(0, 0, 0, 0));
+    ju_ScrollView.juEdge(UIEdgeInsetsMake(0, 0, 0, 0));
 
 
     ju_Page=[[JuPageViewControl alloc]init];
@@ -89,10 +85,7 @@
     ju_ScrollView.delegate=self;
 
 }
-//重新设置位置
--(void)setScale:(CGFloat)Scale{
-    _Scale=Scale;
-}
+
 //初始化轮播图片
 -(void)juSetScrollItem:(NSArray *)arrItem{
     if (!arrItem&&arrItem.count==0) return;

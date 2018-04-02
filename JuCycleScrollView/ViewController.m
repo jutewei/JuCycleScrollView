@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [ju_cycleScrollView juSetScrollItem:@[@"1.jpg",@"2.jpeg"]];
+    [ju_cycleScrollView juSetScrollItem:@[@"1.jpg",@"2.jpeg",@"3.jpg"]];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

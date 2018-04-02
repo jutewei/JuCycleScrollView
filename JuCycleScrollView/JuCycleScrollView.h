@@ -19,16 +19,13 @@
     NSTimeInterval ju_Animation;
 
 }
-@property (assign,nonatomic) CGFloat Scale;
+
 -(void)juSetScrollItem:(NSArray*)arrItem;
 -(void)juStartTimer;
 -(void)juSetScrollView;
 /**
  *  @author Juvid, 16-05-10 16:05
- *
  *  设置轮播图是否滚动
- *
- *  @param animated
  */
 - (void)juSetTimer:(BOOL)animated;
 

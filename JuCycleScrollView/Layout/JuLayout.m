@@ -85,19 +85,19 @@
 
 -(JuLayout *(^)(CGFloat  prioritys))priority{
     return ^JuLayout* (CGFloat  prioritys){
-        _prioritys=prioritys;
+        self->_prioritys=prioritys;
         return self;
     };
 }
 -(JuLayout *(^)(CGFloat  mulits))multi{
     return ^JuLayout* (CGFloat  mulits){
-        _juMulti=mulits;
+        self->_juMulti=mulits;
         return self;
     };
 }
 -(JuLayout *(^)(UIView * toItem))toView{
     return ^JuLayout* (UIView * toItem){///< block实现返回block变量
-        _juView2=toItem;
+        self->_juView2=toItem;
         return self;///< block返回值
     };
 }
@@ -112,21 +112,21 @@
 
 -(NSLayoutConstraint *(^)(CGFloat constion))equal{
     return ^NSLayoutConstraint* (CGFloat constion){
-         _juRelation=NSLayoutRelationEqual;
+        self->_juRelation=NSLayoutRelationEqual;
         self.juConstant=constion;
         return  [self juAddConstraint];
     };
 }
 -(NSLayoutConstraint *(^)(CGFloat constion))greatEqual{
     return ^NSLayoutConstraint* (CGFloat constion){
-         _juRelation=NSLayoutRelationGreaterThanOrEqual;
+        self->_juRelation=NSLayoutRelationGreaterThanOrEqual;
         self.juConstant=constion;
         return [self juAddConstraint];
     };
 }
 -(NSLayoutConstraint *(^)(CGFloat constion))lessEqual{
     return ^NSLayoutConstraint* (CGFloat constion){
-         _juRelation=NSLayoutRelationLessThanOrEqual;
+        self->_juRelation=NSLayoutRelationLessThanOrEqual;
         self.juConstant=constion;
         return [self juAddConstraint];
     };
