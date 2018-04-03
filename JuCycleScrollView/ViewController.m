@@ -27,8 +27,8 @@
 }
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
-    [ju_cycleScrollView juSetScrollItem:@[@"1.jpg",@"2.jpeg",@"3.jpg"]];
-//    [ju_cycle2 juSetScrollItem:@[@"1.jpg",@"2.jpeg",@"3.jpg"]];
+    [ju_cycleScrollView juSetScrollItem:@[@"1.jpg",@"2.jpeg",@"3.jpg",@"4.jpeg"]];
+    [ju_cycle2 juSetScrollItem:@[@"1.jpg",@"2.jpeg",@"3.jpg"]];
 }
 
 - (void)didReceiveMemoryWarning {

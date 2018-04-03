@@ -32,7 +32,6 @@
             [self juSetItemImage:imgItem withData:arrItem.count>1?arrItem[1]:arrItem[0]];
         }
         [imgItem setClipsToBounds:YES];
-
     }
 }
 /*
