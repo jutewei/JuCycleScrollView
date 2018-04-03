@@ -24,6 +24,8 @@
 		EBC018F52072170B0030AF63 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBC018F42072170B0030AF63 /* 1.jpg */; };
 		EBC018F7207217100030AF63 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EBC018F6207217100030AF63 /* 2.jpeg */; };
 		EBC018F9207218C60030AF63 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EBC018F8207218C60030AF63 /* 3.jpg */; };
+		EBC018FB20721F0A0030AF63 /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EBC018FA20721F090030AF63 /* 4.jpeg */; };
+		EBC018FE207220D10030AF63 /* JuCycleEdgeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC018FD207220D10030AF63 /* JuCycleEdgeScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,9 @@
 		EBC018F42072170B0030AF63 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		EBC018F6207217100030AF63 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
 		EBC018F8207218C60030AF63 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		EBC018FA20721F090030AF63 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		EBC018FC207220D10030AF63 /* JuCycleEdgeScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JuCycleEdgeScrollView.h; sourceTree = "<group>"; };
+		EBC018FD207220D10030AF63 /* JuCycleEdgeScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JuCycleEdgeScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +103,14 @@
 				EBC018DC207212D40030AF63 /* NSTimer+Addition.m */,
 				EBC018D9207212CC0030AF63 /* JuCycleScrollView.h */,
 				EBC018D8207212CC0030AF63 /* JuCycleScrollView.m */,
+				EBC018FC207220D10030AF63 /* JuCycleEdgeScrollView.h */,
+				EBC018FD207220D10030AF63 /* JuCycleEdgeScrollView.m */,
 				EBC018DF207212EA0030AF63 /* JuPageViewControl.h */,
 				EBC018DE207212EA0030AF63 /* JuPageViewControl.m */,
 				EBC018F42072170B0030AF63 /* 1.jpg */,
 				EBC018F6207217100030AF63 /* 2.jpeg */,
 				EBC018F8207218C60030AF63 /* 3.jpg */,
+				EBC018FA20721F090030AF63 /* 4.jpeg */,
 				EBC018CB207212A10030AF63 /* Assets.xcassets */,
 				EBC018CD207212A10030AF63 /* LaunchScreen.storyboard */,
 				EBC018D0207212A10030AF63 /* Info.plist */,
@@ -186,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBC018F52072170B0030AF63 /* 1.jpg in Resources */,
+				EBC018FB20721F0A0030AF63 /* 4.jpeg in Resources */,
 				EBC018F9207218C60030AF63 /* 3.jpg in Resources */,
 				EBC018CF207212A10030AF63 /* LaunchScreen.storyboard in Resources */,
 				EBC018CC207212A10030AF63 /* Assets.xcassets in Resources */,
@@ -201,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBC018FE207220D10030AF63 /* JuCycleEdgeScrollView.m in Sources */,
 				EBC018EE207213870030AF63 /* UIView+JuLayGroup.m in Sources */,
 				EBC018E0207212EA0030AF63 /* JuPageViewControl.m in Sources */,
 				EBC018C72072129F0030AF63 /* ViewController.m in Sources */,
