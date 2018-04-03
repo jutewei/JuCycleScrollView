@@ -118,6 +118,7 @@
     }
     ju_ScrollView.contentSize=CGSizeMake(ju_TotalNum*_juItemW, 0);
 }
+
 -(void)juPageStyle:(NSInteger)pageNum{
     pageNum=pageNum==0?1:pageNum;
     ju_Page.numberOfPages=pageNum;
@@ -130,7 +131,6 @@
     if ([imageData isKindOfClass:[NSString class]]) {
         imgItem.image=[UIImage imageNamed:imageData];
     }
-
 }
 -(void)juSetItemlable:(UIView *)viewImg withData:(id)sh_M{
     ju_Page.currentPageIndicatorTintColor=[UIColor lightGrayColor];

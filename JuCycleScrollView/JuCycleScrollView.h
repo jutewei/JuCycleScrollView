@@ -25,7 +25,8 @@
 @property (nonatomic,assign) CGFloat juItemW;
 
 -(void)juSetScrollItem:(NSArray*)arrItem;
-
+//设置数据
+-(void)juSetItemImage:(UIImageView *)imgItem withData:(id)imageData;
 /**
  *  @author Juvid, 16-05-10 16:05
  *  设置轮播图是否滚动
